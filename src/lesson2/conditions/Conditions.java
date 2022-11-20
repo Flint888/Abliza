@@ -61,5 +61,8 @@ public class Conditions {
 
 //        boolean resultForMomAll = false || true;
 //        boolean resultForMomAll = true;
+
+        //Логическое НЕ (NOT) - операция над одним значением, которое переворачивает значение
+        System.out.println(!false);
     }
 }
