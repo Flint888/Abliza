@@ -34,6 +34,7 @@ public class Lesson5 {
         Zoo zoo = new Zoo(horse, tiger, cat);
         System.out.println(zoo);
 
+        System.out.println("12345678".substring(0, 7));
 
     }
 }
