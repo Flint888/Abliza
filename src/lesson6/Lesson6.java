@@ -1,6 +1,7 @@
 package lesson6;
 
 import lesson5.Lesson5;
+import lesson7.Fish;
 
 public class Lesson6 {
     public static void main(String[] args) {
