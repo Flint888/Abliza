@@ -1,13 +1,10 @@
 package lesson10;
 
+import java.util.Arrays;
+
 public class Test {
     public static void main(String[] args) {
-        for (int i = 0; i < 3; i++) {
-            try {
-                if (i == 1) {
-                    throw new RuntimeException("Оконачние всего");
-                }
-            } catch (Exception e) {}
-        }
+        String s = "20\\01\\2020";
+        System.out.println(s.replaceAll("\\\\", "o"));
     }
 }

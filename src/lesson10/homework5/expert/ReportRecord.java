@@ -1,4 +1,4 @@
-package lesson10.expert;
+package lesson10.homework5.expert;
 
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
