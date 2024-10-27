@@ -5,9 +5,10 @@ import lesson7.Fish;
 
 public class Lesson6 {
     public static void main(String[] args) {
-       //animalExample();
+//       animalExample();
        //defenderExample();
-        //humanExample();
+        humanExample();
+
         //Lesson5.main(new String[0]);
     }
 
@@ -18,40 +19,42 @@ public class Lesson6 {
 
         petr.hello();
         Human.hello();
+        System.out.println(Human.count);
     }
 
-    public static void defenderExample() {
-        Dog muhtar = new Dog("Muhtar", 4);
-        Robot robot = new Robot();
+//
+//    public static void defenderExample() {
+//        Dog muhtar = new Dog("Muhtar", 4);
+//        Robot robot = new Robot();
+//
+//        Defendable[] defendables = {muhtar, robot};
+//        for (Defendable defendable : defendables) {
+//            defendable.defend();
+//            defendable.attack();
+//        }
+//    }
 
-        Defendable[] defendables = {muhtar, robot};
-        for (Defendable defendable : defendables) {
-            defendable.defend();
-            defendable.attack();
-        }
-    }
 
-
-    public static void animalExample() {
-        Animal cat = new Cat("Barsik");
-        Dog dog = new Dog("Muhtar", 4);
-        Animal dog2 = dog;
-        System.out.println(dog);
-        System.out.println(dog2);
-        System.out.println(dog2.getClass());
-        if (dog instanceof Animal) {
-            System.out.println("Да это животное");
-        }
-
-//        cat.makeSound();
-//        dog.makeSound();
-
-        Animal[] zoo = {cat, dog};
-        for (Animal animal : zoo) {
-            if (animal instanceof Dog) {
-                ((Dog) animal).defend();
-            }
-            animal.makeSound();
-        }
-    }
+//    public static void animalExample() {
+//        Animal cat = new Cat("Barsik");
+//        Dog dog = new Dog("Muhtar", 4);
+//        Animal dog2 = dog;
+//        System.out.println(dog);
+//        System.out.println(dog2);
+//        System.out.println(dog2.getClass());
+//        if (dog instanceof Animal) {
+//            System.out.println("Да это животное");
+//        }
+//
+////        cat.makeSound();
+////        dog.makeSound();
+//
+//        Animal[] zoo = {cat, dog};
+//        for (Animal animal : zoo) {
+//            if (animal instanceof Dog) {
+//                ((Dog) animal).defend();
+//            }
+//            animal.makeSound();
+//        }
+//    }
 }

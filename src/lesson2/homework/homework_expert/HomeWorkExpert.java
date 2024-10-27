@@ -48,7 +48,6 @@ public class HomeWorkExpert {
                     .append(text.substring(indexEndData))
                     .toString();
         }
-
         return text;
     }
 
